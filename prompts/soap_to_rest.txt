@@ -1,0 +1,16 @@
+You are an expert Java backend developer.
+
+Generate a Spring Boot REST controller based on the following service metadata:
+
+Class Name: {class_name}
+Annotations: {annotations}
+Methods:
+{methods_list}
+
+Requirements:
+- Use appropriate @RestController and @RequestMapping annotations.
+- Map methods to RESTful endpoints (use GET/POST/PUT/DELETE where applicable).
+- Ensure method parameters and return types are inferred from names.
+- Generate clean, idiomatic Spring Boot code.
+
+Respond with ONLY the code block for the controller class.

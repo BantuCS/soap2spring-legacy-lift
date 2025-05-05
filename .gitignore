@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.env
+*.env
+*.venv/
+venv/
+env/
+soap-rest-env/
+
+# Editors
+.vscode/
+.idea/
+
+# Output + builds
+output/
+*.mmd
+*.png
+
+# Node (for mmdc)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
